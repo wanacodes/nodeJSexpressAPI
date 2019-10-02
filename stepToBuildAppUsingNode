@@ -1,0 +1,21 @@
+
+Thing to know to build NodeJS Apps
+----------------------------------
+
+npm
+asynchronous JS
+CRUD operation
+data validation
+authenticate and authorization
+handling and logging errors
+unit & integration testing
+test driven development
+deploy
+
+Coding Practices
+----------------
+
+clean coding and refactoring
+security best practices
+useful libraries
+common mistake
