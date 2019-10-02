@@ -1,9 +1,13 @@
-import { createServer } from 'http';
+const http = require('http');
 
-function onRequest(request, response) {
-    response.writeHead(200, {'Content-Type': 'text/plain'});
-    response.write('Hello World');
-    response.end();
-}
+const server = http.createServer((req, res) {
+    if (req.url === '/') {
+        //..
+    }
+    
+    if (req.url === '/api/courses') {
+        //..
+    }
+});
 
-createServer(onRequest).listen(8000);
+server.listen(3000);
