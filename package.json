@@ -1,0 +1,27 @@
+{
+  "name": "nodeproject",
+  "version": "1.0.0",
+  "description": "First node project",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^13.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-google": "^0.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanacodes/nodeJSexpressAPI.git"
+  },
+  "author": "Firdaus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wanacodes/nodeJSexpressAPI/issues"
+  },
+  "homepage": "https://github.com/wanacodes/nodeJSexpressAPI#readme"
+}
